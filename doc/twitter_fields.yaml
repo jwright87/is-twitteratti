@@ -1,0 +1,41 @@
+twitter_objects:
+  tweet:
+    link: https://developer.twitter.com/en/docs/twitter-api/data-dictionary/object-model/tweet
+    fields:
+    - id: String
+    - text: String
+    - attachments: String
+    - author_id: String
+    - context_annotations: array
+    - converstation_id: String
+    - created_at: ZonedDateTime
+    - entities: object
+    - geo: object
+    - in_reply_to_user_id: String
+    - lang: String
+    - non_public_metrics: NonPublicMetrics
+    -  organic_metrics: OrganicMetrics
+    - possibly_sensitive: boolean
+    - promoted_metrics: Object
+    - public_metrics: Object
+    - referenced_tweets: array
+    - reply_settings: string
+    - source: string
+    - withheld: object
+  user:
+    link: https://developer.twitter.com/en/docs/twitter-api/data-dictionary/object-model/user
+    fields:
+      - id: String
+      - name: String
+      - username: String
+      - created_at: ZonedDateTime
+      - description: String
+      - entities: object
+      - location: String
+      - pinned_tweet_id: String
+      - profile_image_url: String
+      - protected: boolean
+      - public_metrics: object
+      - url: String
+      - verified: boolean
+      - witheld: object

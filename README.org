@@ -1,0 +1,25 @@
+# Readme
+
+* TODO Very much to do...
+
+
+| Feature                          |  Progress |
+|----------------------------------+-----------|
+| Setup Spring Boot                |        90 |
+| Setup Database                   |        10 |
+| Design Database Schema           |         5 |
+| Create Frontend                  |         0 |
+| Write Controller Layer           |         2 |
+| Write Services                   |         0 |
+| Write JPA/Hibernate Repositories |         0 |
+| Integration/Acceptance Tests     |         0 |
+| Documentation                    |         5 |
+| Docker setup                     |        10 |
+| Security                         |         0 |
+|----------------------------------+-----------|
+| Average Task Completion          | 11.090909 |
+|                                  |           |
+#+TBLFM: $2=vmean(@2..@12)
+
+
+11% Done!
